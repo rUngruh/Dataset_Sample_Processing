@@ -36,10 +36,8 @@ Gather the publicly available datasets and add them to a directory `data` as str
 
 
 
-
-
 ## MLHD
-The MLHD dataset used in the [RecSys 2025 paper](). This is a subset of the original MLHD+ dataset which closely reflects ages in the original set and includes genre information of each artist.
+The MLHD dataset used in the [RecSys 2025 paper](https://doi.org/10.1145/3705328.3748160). This is a subset of the original MLHD+ dataset which closely reflects ages in the original set and includes genre information of each artist.
 For the code used to generate the data samples, we refer to [the original code](https://github.com/rUngruh/2025_RecSys_Reproducibility)
 
 ### Process Datasets
@@ -59,13 +57,13 @@ python MLHD_filter_LEs_by_genre.py --dataset_dir data
 ### Citation
 If this subset is used, please cite the original [MLHD dataset](https://ddmal.music.mcgill.ca/research/The_Music_Listening_Histories_Dataset_(MLHD)/), [MLHD+](https://musicbrainz.org/doc/MLHD+) and our paper (see below)
 ```
-
+Robin Ungruh, Alejandro Bellogín, Dominik Kowald, and Maria Soledad Pera. 2025. Impacts of Mainstream-Driven Algorithms on Recommendations for Children Across Domains: A Reproducibility Study. In 19th ACM Conference on Recommender Systems (RecSys ’25), September 22–26, 2025, Prague, Czech Republic. ACM, New York, NY, USA, 9 pages. https://doi.org/10.1145/3705328.3748160
 ```
 
 
 ## Bookcrossing
 
-The Bookcrossing dataset used in the [RecSys 2025 paper](). This dataset includes an annotation of genres as per the Goodreads dataset for each book.
+The Bookcrossing dataset used in the [RecSys 2025 paper](https://doi.org/10.1145/3705328.3748160). This dataset includes an annotation of genres as per the Goodreads dataset for each book.
 For the code used to generate the data samples, we refer to [the original code](https://github.com/rUngruh/2025_RecSys_Reproducibility)
 
 ### Process Datasets
@@ -83,5 +81,5 @@ python BX_filter_ratings.py --dataset_dir data
 ### Citation
 If this subset is used, please cite the original [Book-Crossing](https://www.kaggle.com/datasets/syedjaferk/book-crossing-dataset), [Goodreads](https://cseweb.ucsd.edu/~jmcauley/datasets/goodreads.html), and our paper (see below)
 ```
-
+Robin Ungruh, Alejandro Bellogín, Dominik Kowald, and Maria Soledad Pera. 2025. Impacts of Mainstream-Driven Algorithms on Recommendations for Children Across Domains: A Reproducibility Study. In 19th ACM Conference on Recommender Systems (RecSys ’25), September 22–26, 2025, Prague, Czech Republic. ACM, New York, NY, USA, 9 pages. https://doi.org/10.1145/3705328.3748160
 ```
