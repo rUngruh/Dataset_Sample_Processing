@@ -33,7 +33,11 @@ Gather the publicly available datasets and add them to a directory `data` as str
 ```
 
 # Environment Preparation
-
+```
+conda create -n datasetProcessing PYTHON=3.12
+conda install pip
+pip install -r requirements.txt
+```
 
 
 ## MLHD
